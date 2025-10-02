@@ -1,0 +1,22 @@
+{
+  "name": "movie-magic",
+  "version": "1.0.0",
+  "description": "SoftUni JS Back-End course project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgiApostolov/Movie-Magic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/GeorgiApostolov/Movie-Magic/issues"
+  },
+  "homepage": "https://github.com/GeorgiApostolov/Movie-Magic#readme"
+}
