@@ -14,7 +14,7 @@ SoftUni JS Back-End course project
 - [x] Setup static files
 - [x] Render Home Page
 - [x] Add Layout
-- [] Render About Page
+- [x] Render About Page
 
 ### Architecture and dynamic rendering
 
