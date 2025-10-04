@@ -3,7 +3,7 @@ import { create } from "express-handlebars";
 
 const movieController = Router();
 
-movieController.get("/movies/create", (req, res) => {
+movieController.get("/create", (req, res) => {
   res.render("create");
 });
 
