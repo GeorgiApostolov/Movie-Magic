@@ -30,7 +30,7 @@ SoftUni JS Back-End course project
 - [x] Show create movie page
 - [x] Add routes
 - [] Add 404 page
-- [] Ready body data
+- [x] Ready body data
 - [] Create movie
   - [] Add action
   - [] Add service
