@@ -22,11 +22,11 @@ SoftUni JS Back-End course project
 - [x] Add movie data layer
 - [x] Add movie service
 - [x] Render movies on home page
-- [] Show no movies screen
+- [x] Show no movies screen
 
 ### Create Movie
 
-- [] Add Movie Controller
+- [x] Add Movie Controller
 - [] Show create movie page
 - [] Add routes
 - [] Add 404 page
