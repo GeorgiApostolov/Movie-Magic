@@ -27,7 +27,7 @@ SoftUni JS Back-End course project
 ### Create Movie
 
 - [x] Add Movie Controller
-- [] Show create movie page
+- [x] Show create movie page
 - [] Add routes
 - [] Add 404 page
 - [] Ready body data

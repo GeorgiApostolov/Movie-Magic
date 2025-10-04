@@ -1,9 +1,10 @@
 import { Router } from "express";
+import { create } from "express-handlebars";
 
 const movieController = Router();
 
 movieController.get("/movies/create", (req, res) => {
-  res.send(`Movie create`);
+  res.render("create");
 });
 
 export default movieController;
