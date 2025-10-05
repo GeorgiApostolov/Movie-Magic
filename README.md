@@ -32,8 +32,8 @@ SoftUni JS Back-End course project
 - [] Add 404 page
 - [x] Ready body data
 - [] Create movie
-  - [] Add action
-  - [] Add service
+  - [x] Add action
+  - [x] Add service
   - [] Add model method for creating movie
 - [] Redirect after creation
 - [] Add unique if for each cerated movie
