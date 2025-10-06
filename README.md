@@ -53,7 +53,7 @@ SoftUni JS Back-End course project
 - [x] Modify search form
 - [] Filter movies
   - [x] By year
-  - [] By genre
+  - [x] By genre
   - [] By title
 - [] Remember search words
 
