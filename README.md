@@ -49,7 +49,7 @@ SoftUni JS Back-End course project
 ### Search
 
 - [x] Show static search page
-- [] Render all movies
+- [x] Render all movies
 - [] Modify search form
 - [] Filter movies
   - [] By year
