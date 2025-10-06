@@ -55,7 +55,7 @@ SoftUni JS Back-End course project
   - [x] By year
   - [x] By genre
   - [x] By title
-- [] Remember search words
+- [x] Remember search words
 
 ### Bonuses
 
