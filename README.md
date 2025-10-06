@@ -50,9 +50,9 @@ SoftUni JS Back-End course project
 
 - [x] Show static search page
 - [x] Render all movies
-- [] Modify search form
+- [x] Modify search form
 - [] Filter movies
-  - [] By year
+  - [x] By year
   - [] By genre
   - [] By title
 - [] Remember search words
