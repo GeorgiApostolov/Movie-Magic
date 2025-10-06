@@ -41,10 +41,10 @@ SoftUni JS Back-End course project
 ### Details
 
 - [x] Add navigation button for detail page
-- [] Add route with param for details page
-- [] GetOne movie from service
-- [] Find movie by id from model
-- [] Render details page with dynamic data
+- [x] Add route with param for details page
+- [x] GetOne movie from service
+- [x] Find movie by id from model
+- [x] Render details page with dynamic data
 
 ### Search
 
