@@ -74,7 +74,7 @@ SoftUni JS Back-End course project
 ### Setup Database
 
 - [x] Install mongoose `npm i mongoose`
-- [] Connect to DB
+- [x] Connect to DB
 
 ### Refactor Movies to use mongoose
 
