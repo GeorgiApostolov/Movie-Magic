@@ -1,4 +1,4 @@
-import Movie from "../models/Movie.js";
+import Movie from "../models/Movie-old.js";
 
 export default {
   getAll(filter) {

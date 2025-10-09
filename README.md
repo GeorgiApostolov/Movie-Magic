@@ -78,9 +78,9 @@ SoftUni JS Back-End course project
 
 ### Refactor Movies to use mongoose
 
-- [] Add movie model
-  - [] Create movie schema
-  - [] Create movie model
+- [x] Add movie model
+  - [x] Create movie schema
+  - [x] Create movie model
 - [] Import file movies to database !DON'T IMPORT IDs
 - [] Fix own property handlebars problem with lean method
 - [] General fix for own property problem
