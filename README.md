@@ -67,13 +67,13 @@ SoftUni JS Back-End course project
 
 ### Prerequisites
 
-- [] Install MongoDB Community Server
-- [] Install Compass GUI
-- [] Install Mongosh CLI (Optional)
+- [x] Install MongoDB Community Server
+- [x] Install Compass GUI
+- [x] Install Mongosh CLI (Optional)
 
 ### Setup Database
 
-- [] Install mongoose `npm i mongoose`
+- [x] Install mongoose `npm i mongoose`
 - [] Connect to DB
 
 ### Refactor Movies to use mongoose
