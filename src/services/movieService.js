@@ -3,7 +3,7 @@ import { Document } from "mongoose";
 
 export default {
   async getAll(filter) {
-    const result = await Movie.find(filter).lean();
+    const result = await Movie.find(filter);
 
     // const resultObj = result.map((movie) => movie.toObject());
 
