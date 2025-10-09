@@ -2,15 +2,24 @@ import Movie from "../models/Movie.js";
 import { Document } from "mongoose";
 
 export default {
-  async getAll(filter) {
-    const result = await Movie.find(filter);
+  getAll(filter) {
+    let query = Movie.find();
 
-    // const resultObj = result.map((movie) => movie.toObject());
+    if (filter.title) {
+      query = query.find({ title: { $regex: filter.title, $options: "i" } });
+    }
+    if (filter.genre) {
+      query = query.find({ genre: { $regex: filter.genre, $options: "i" } });
+    }
+    if (filter.year) {
+      query = query.where("year").equals(filter.year);
+    }
 
-    return result;
+    return query;
   },
   getOne(movieId) {
-    return Movie.findOne({ _id: movieId });
+    // return Movie.findOne({ _id: movieId });
+    return Movie.findById(movieId);
   },
   create(movieData) {
     movieData.rating = Number(movieData.rating);
