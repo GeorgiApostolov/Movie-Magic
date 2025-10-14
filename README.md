@@ -84,9 +84,9 @@ SoftUni JS Back-End course project
 - [x] Import file movies to database !DON'T IMPORT IDs
 - [x] Fix own property handlebars problem with lean method
 - [x] General fix for own property problem
-- [] Refactor details
-- [] Refactor create
-- [] Refactor search
+- [x] Refactor details
+- [x] Refactor create
+- [x] Refactor search
 
 ### Add Cast
 

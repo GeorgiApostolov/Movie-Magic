@@ -9,7 +9,9 @@ export default {
       query = query.find({ title: { $regex: filter.title, $options: "i" } });
     }
     if (filter.genre) {
-      query = query.find({ genre: { $regex: filter.genre, $options: "i" } });
+      query = query.find({
+        genre: { $regex: new RegExp(`^${filter.genre}$`), $options: "i" },
+      });
     }
     if (filter.year) {
       query = query.where("year").equals(filter.year);
