@@ -18,4 +18,9 @@ authController.get("/login", (req, res) => {
   res.render("auth/login");
 });
 
+authController.post("/login", async (req, res) => {
+  const { email, password } = req.body;
+  await userService.login(email, password);
+});
+
 export default authController;
