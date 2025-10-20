@@ -128,7 +128,7 @@ SoftUni JS Back-End course project
 
 ### Registration
 
-- [] Add new controller `authController`
+- [x] Add new controller `authController`
 - [] Add registration page
 - [] Add User model
 - [] Add User service
