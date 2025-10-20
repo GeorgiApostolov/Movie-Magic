@@ -133,7 +133,7 @@ SoftUni JS Back-End course project
 - [x] Add User model
 - [x] Add User service
 - [x] Handle registration (create user in database)
-- [] Add password hashing
+- [x] Add password hashing
 
 ### Login
 

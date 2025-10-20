@@ -8,12 +8,10 @@ authController.get("/register", (req, res) => {
 
 authController.post("/register", async (req, res) => {
   const userData = req.body;
-  if (userData.password === userData.rePassword) {
-    await userService.register(userData);
-    res.redirect("/");
-  } else {
-    console.log("wrong passwords");
-  }
+
+  await userService.register(userData);
+
+  res.redirect("/");
 });
 
 export default authController;
