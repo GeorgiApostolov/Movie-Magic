@@ -141,7 +141,7 @@ SoftUni JS Back-End course project
 - [] Handle login page
   - [x] Validate user
   - [x] Validate password
-  - [] Create token
+  - [x] Create token
   - [] Return token to client
 
 ### Logout
