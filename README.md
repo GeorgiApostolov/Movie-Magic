@@ -138,11 +138,11 @@ SoftUni JS Back-End course project
 ### Login
 
 - [x] Add login page
-- [] Handle login page
+- [x] Handle login page
   - [x] Validate user
   - [x] Validate password
   - [x] Create token
-  - [] Return token to client
+  - [x] Return token to client
 
 ### Logout
 
