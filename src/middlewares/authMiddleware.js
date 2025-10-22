@@ -10,6 +10,10 @@ export default function authMiddleware(req, res, next) {
 
   try {
     const decodedToken = jwt.verify(token, JWT_SECRET);
+
+    req.user = decodedToken;
+    req.isAuthenticated = true;
+    next();
   } catch (err) {
     res.clearCookie("auth");
 
