@@ -176,5 +176,5 @@ SoftUni JS Back-End course project
 ### Edit movies
 
 - [x] Add edit page
-- [] Add dynamic movie data to edit page
+- [x] Add dynamic movie data to edit page
 - [] Handle edit movie
