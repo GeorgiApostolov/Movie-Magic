@@ -154,7 +154,7 @@ SoftUni JS Back-End course project
 - [x] Install cookie parser
 - [x] Add auth middleware
 - [x] Add isAuth route guard
-- [] Add isGuest route guard
+- [x] Add isGuest route guard
 
 ### Dynamic Navigation
 
