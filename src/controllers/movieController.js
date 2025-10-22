@@ -13,7 +13,7 @@ movieController.get("/create", isAuth, (req, res) => {
   res.render("movies/create", { pageTitle: "Movie Create" });
 });
 
-movieController.post("movies//create", isAuth, async (req, res) => {
+movieController.post("/create", isAuth, async (req, res) => {
   const movieData = req.body;
   const userId = req.user.id;
   await movieService.create(movieData, userId);
@@ -26,12 +26,13 @@ movieController.get("/:movieId/details", async (req, res) => {
   // const movieCasts = await castService.getAll({ includes: movie.casts });
   const ratingViewData = "&#x2605".repeat(Math.trunc(movie.rating));
 
-  // const isCreator =
+  const isCreator = req.user?.id && movie.creator == req.user.id;
   res.render("movies/details", {
     movie,
     pageTitle: "Movie Details",
     rating: ratingViewData,
     casts: movie.casts,
+    isCreator,
   });
 });
 
