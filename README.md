@@ -158,8 +158,8 @@ SoftUni JS Back-End course project
 
 ### Dynamic Navigation
 
-- [] Group navigation by user type (all, authenticated and guest)
-- [] Add auth info to handlebars context
+- [x] Group navigation by user type (all, authenticated and guest)
+- [x] Add auth info to handlebars context
 
 ### Show creator control buttons
 
