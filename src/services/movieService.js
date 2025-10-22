@@ -23,10 +23,12 @@ export default {
     // return Movie.findOne({ _id: movieId });
     return Movie.findById(movieId).populate("casts");
   },
-  create(movieData) {
-    movieData.rating = Number(movieData.rating);
-
-    return Movie.create(movieData);
+  create(movieData, userId) {
+    return Movie.create({
+      ...movieData,
+      rating: Number(movieData.rating),
+      creator: userId,
+    });
   },
   async attach(movieId, castId) {
     const movie = await Movie.findById(movieId);
