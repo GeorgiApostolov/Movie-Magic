@@ -35,4 +35,7 @@ export default {
     movie.casts.push(castId);
     return movie.save();
   },
+  delete(movieId) {
+    return Movie.findByIdAndDelete(movieId);
+  },
 };

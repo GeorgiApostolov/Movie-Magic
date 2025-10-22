@@ -170,7 +170,7 @@ SoftUni JS Back-End course project
 
 ### Delete movies
 
-- [] Add delete action
+- [x] Add delete action
 - [] Add creator validation
 
 ### Edit movies
