@@ -10,10 +10,10 @@ movieController.get("/create", isAuth, (req, res) => {
   if (req.isAuthenticated) {
     console.log(req.user.email);
   }
-  res.render("create", { pageTitle: "Movie Create" });
+  res.render("movies/create", { pageTitle: "Movie Create" });
 });
 
-movieController.post("/create", isAuth, async (req, res) => {
+movieController.post("movies//create", isAuth, async (req, res) => {
   const movieData = req.body;
   await movieService.create(movieData);
   res.redirect(`/`);
@@ -24,7 +24,7 @@ movieController.get("/:movieId/details", async (req, res) => {
   const movie = await movieService.getOne(movieId);
   // const movieCasts = await castService.getAll({ includes: movie.casts });
   const ratingViewData = "&#x2605".repeat(Math.trunc(movie.rating));
-  res.render("details", {
+  res.render("movies/details", {
     movie,
     pageTitle: "Movie Details",
     rating: ratingViewData,
